@@ -79,6 +79,75 @@ font-weight: 800;
 }
 .banner-container p{
     margin-top: 0px;
+    color:rgba(255, 255, 255, 0.5)
 }
-
-
+.img-btn-1{
+    width:193px;
+    height:98px;
+    position: absolute;
+    margin-top: 157px;
+    margin-left: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    border-radius: 12px;
+}
+.number-500{
+    font-size: 40px;
+    font-weight: 900;  
+}
+.img-btn-2{
+    display: flex;
+    width:206px;
+    height:96px;
+    position: absolute;
+    margin-top: -153px;
+    margin-left: -120px;
+    margin-bottom: 63px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.number-300{
+    font-size: 24px;
+    font-weight: 900; 
+}
+#circle{
+    color: red;
+}
+/* banner middle part style */
+.b-m-h{
+    text-align: center;
+}
+.banner-middle-part p{
+    color:rgba(255, 255, 255, 0.5)
+}
+.b-m-h h2{
+    font-size: 48px;
+}
+.image-m-container{
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.image-1{
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.banner-middle-part{
+    margin-top: 100px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+.image-m-container h3{
+    text-align: center;
+    margin-left: -50px;
+}
+.image-m-container p{
+    text-align: left;
+    font-size: 14px;
+}

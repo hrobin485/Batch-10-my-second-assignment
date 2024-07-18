@@ -120,7 +120,8 @@ font-weight: 800;
 .b-m-h{
     text-align: center;
 }
-.banner-middle-part p{
+.banner-middle-part p,.banner-last-part p,.calculator-tittle p,.calculator-box p,.last-section-tittle p, .name p, .right-btn
+ button, .footer-section p{
     color:rgba(255, 255, 255, 0.5)
 }
 .b-m-h h2{
@@ -150,4 +151,178 @@ font-weight: 800;
 .image-m-container p{
     text-align: left;
     font-size: 14px;
+}
+/* banner last part */
+.banner-last-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+     width: auto;
+    height: 371px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 54px;
+    padding-right: 40px;
+    
+}
+.banner-last-part h2{
+    font-size: 48px;
+}
+.banner-last-part img{
+    display: block;
+  
+    width: 366px;
+    height: 312px;
+}
+.banner-last-part-text{
+    width: 443px;
+    height: 290px;
+}
+/* calculator part style */
+.calculator-tittle{
+    margin-left: 384.5px;
+    margin-right: 384.5px;
+    width: 671px;
+    height: 120px;
+    margin-top: 88px;
+
+}
+.calculator-tittle h2{
+    font-size: 48px;
+    text-align: left;
+}
+.calculator-tittle p{
+    text-align:left;
+    font-size: 14px;
+  margin-top: -20px;
+}
+.calculator-box{
+    margin-top: 88px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 487px;
+}
+.left-side-box{
+    margin-top: 52px;
+    margin-left: 190px;
+} 
+.right-side-box{
+    margin-top: 52px;
+    margin-right: 190px;
+   width: 577px;
+   height: 386px;
+
+}
+.box{
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+}
+.box-column-row-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.right-btn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 382px;
+    height: 148px;
+    column-gap: 10px;
+    row-gap: 10px;
+    border: 1x solid;
+   
+}
+.right-btn button{
+    border: 1x solid  rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.calculate{
+    margin-top: 50px;
+    margin-bottom: 55px;
+}
+/* last section */
+.last-section-tittle{
+margin-top: 88px;
+width: 671px;
+height: 120px;
+text-align: center;
+margin-left: 240px;
+}
+.last-section-tittle h2{
+    font-size: 48px;
+}
+.image-2{
+    display: block;
+    width: 326px;
+    height: 272px;
+    border-radius:18px;
+}
+.last-section-img{
+    margin-top: 58px;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding:30px ;
+    width: 1060px;
+    height: 604px;
+    border-radius: 30px;
+}
+.name{
+    margin-top: -100px;
+}
+.name h5{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.name p{
+    margin-left: 15px;
+    margin-top: -20px;
+}
+/* footer styles */
+.footer-section{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 88px;
+    width: 1440px;
+    height: 489px;
+     
+}
+.footer-text{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 100px;
+    margin-left: 140px;
+    margin-right: 190px;
+} 
+.first h2{
+    font-size: 70px;
+    font-weight: 800;
+    color:rgba(230, 83, 60, 1) ;
+}
+.second h4,.third h4{
+    font-size: 32px;
+    font-weight: bold;
+    width: 181px;
+    height: 31px;
+}
+.second p,.third p{
+    font-size: 23px;
+    font-weight: ;
+    width: ;
+    height: ;
+}
+hr{
+    margin-left: 150px;
+    margin-right: 290px;
+}
+.footer-end{
+    margin-top:80px ;
+    margin-bottom: 30px;
+}
+.end{
+    margin-left: 500px;
 }

@@ -16,6 +16,7 @@ body{
     font-size: 18px;
     font-weight:400 ;
 }
+
 .download-app{
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0); 
@@ -180,6 +181,7 @@ font-weight: 800;
 .banner-last-part-text{
     width: 443px;
     height: 290px;
+    margin-top:-70px ;
 }
 /* calculator part style */
 .calculator-tittle{
@@ -241,7 +243,7 @@ font-weight: 800;
     background-color: rgba(255, 255, 255, 0.1);
 }
 .calculate{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 55px;
 }
 /* last section */
@@ -329,6 +331,24 @@ hr{
 .hum-burger{
     display:none; 
 }
+/* unique-section */
+.unique-section{
+    background
+  
+}
+.unique-section h2{
+    font-size: 52px;
+   
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    text-align: center;
+}
+.unique-section p{
+    color: aquamarine;
+    width: 600px;
+    height: 100px;
+    margin-left: 340px;
+}
 
 /* responsive */
 @media screen and (max-width: 576px) {
@@ -361,17 +381,6 @@ hr{
     font-size: 16px;
     width: 274px;
     height: 96px;
-}
-.club{
-    display: none;
-}
-.btn-primary {
-    width: 169px;
-    height: 54px;
-}
-.download-app{
-    width: 198px;
-    height: 54px;
 }
 .image{
     margin-left: 30px;
@@ -418,6 +427,7 @@ hr{
 }
 .banner-last-part-text{
     margin-left: 30px;
+    margin-top: 10px;
 }
 .banner-last-part-text h2{
     font-size: 35px;

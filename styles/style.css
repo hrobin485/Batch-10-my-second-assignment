@@ -326,3 +326,201 @@ hr{
 .end{
     margin-left: 500px;
 }
+.hum-burger{
+    display:none; 
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    .hide{
+        display:none
+    }
+    .nav-options {
+        display: none;
+    }
+    .hum-burger {
+        display: block;
+    }
+    .nav-container{
+        width:353px ;
+        height: 44px;
+        margin-top: 52px;
+        margin-left: 30px;       
+}    
+    .banner-container{
+        margin-top:-180px;
+        margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 200px;
+}
+.banner-text h2{
+    font-size: 36px;
+}
+.banner-text p{
+    font-size: 16px;
+    width: 274px;
+    height: 96px;
+}
+.club{
+    display: none;
+}
+.btn-primary {
+    width: 169px;
+    height: 54px;
+}
+.download-app{
+    width: 198px;
+    height: 54px;
+}
+.image{
+    margin-left: 30px;
+}
+.img-btn-2{
+    margin-top: -350px;
+    margin-left: 0px;
+}
+.img-btn-1{
+    margin-top: 30px;
+}
+.banner-middle-part{
+    margin-left: 30px;
+    margin-top: -50px;
+}
+.b-m-h h2{
+    font-size: 32px;
+    width: 318px;
+    height: 39px;
+}
+.b-m-h br{
+    display: none;
+}
+.b-m-h p{
+    width:316px ;
+    height:72px ;
+}
+.image-m-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.image-1{
+    margin-left: 10px;
+}
+.banner-last-part{
+    display:flex ;
+    flex-direction: column;
+     width: 353px;
+    height: 531px;
+    margin-left: 30px;
+    margin-top: 35px;
+    
+}
+.banner-last-part-text{
+    margin-left: 30px;
+}
+.banner-last-part-text h2{
+    font-size: 35px;
+}
+.join-now{
+    width: 375px;
+}
+.banner-last-part img{
+    width: 285px;
+    height:170px;
+    margin-top: -200px;
+    margin-left: -8px;
+}
+.calculator-tittle{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.calculator-tittle h2{
+    font-size: 32px;
+}
+.calculator-tittle p{
+    width: 353px;
+    height:72px ;
+}
+.calculator-box{
+    margin-top: 25px;
+    width: auto;
+    height: 782px;
+}
+.calculator-box{
+    display: flex;
+    flex-direction: column;
+}
+.calculator-box h2{
+    font-size: 18px;
+}
+.left-side-box{
+    margin-top: 15px;
+}
+.left-side-box, .right-side-box{
+    margin-left:20px ;
+}
+.right-side-box p{
+    width: 346px; ;
+    height:72px ;
+}
+.box-column-row-container{
+    width: 310px;
+    height:216px ;
+}
+.right-btn{
+    width:350px ;
+    height:165px ;
+}
+.calculate{
+    margin-top:10px ;
+    width:240px ;
+}
+.last-section-tittle{
+    margin-left: 40px;
+}
+.last-section-tittle h2{
+    font-size: 32px;
+    margin-left: -350px;
+}
+.last-section-tittle p{
+    width: 309px;
+    height: 72px;
+}
+.last-section-img{
+    width:355px ;
+    height: 1688px;
+    margin-left: 20px;
+    display:flex ;
+    flex-direction: column;
+    column-gap:50px ;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+.footer-section{
+    width:auto;
+    height:1086px; ;
+}
+.end{
+    margin-left: 20px;
+}
+.hr{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+

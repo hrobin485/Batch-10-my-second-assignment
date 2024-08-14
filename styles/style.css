@@ -453,9 +453,10 @@ margin-top:70px;
     display: flex;
     flex-direction: column;
     column-gap: 200px;
+    width: 353px;
 }
 .banner-text{
-    width: 400px;
+    width: 350px;
 }
 .banner-text h2{
     font-size: 36px;
@@ -478,6 +479,7 @@ margin-top:70px;
 .banner-middle-part{
     margin-left: 10px;
     margin-top: -50px;
+    width: 353px;
 }
 .b-m-h h2{
     font-size: 32px;
@@ -503,43 +505,43 @@ margin-top:70px;
 .banner-last-part{
     display:flex ;
     flex-direction: column;
-    width: 280px;
-    height: 531px;
+    width: 243px;
+    height: 550px;
     margin-left: 10px;
     margin-top: 10px;
     
 }
 .banner-last-part-text{
-    margin-left: 30px;
-    margin-top: 10px;
-    width: 400px;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 300px;
 }
 .banner-last-part-text h2{
     font-size: 35px;
 }
 .banner-last-part p:{
-    width: 50px;
+    width: 40px;
   
 }
 .join-now{
-    width: 360px;
+    width: 300px;
 }
 .banner-last-part img{
     width: 285px;
     height:170px;
-    margin-top: -200px;
+    margin-top: -190px;
     margin-left: -8px;
 }
 .calculator-tittle{
     margin-top: 30px;
     margin-left: 20px;
-    width: 390px;
+    width: 353px;
 }
 .calculator-tittle h2{
     font-size: 32px;
 }
 .calculator-tittle p{
-    width: 353px;
+    width: 320px;
     height:72px ;
 }
 
@@ -547,7 +549,7 @@ margin-top:70px;
     display: flex;
     flex-direction: column;
     margin-top: 25px;
-    width: 410px;
+    width: 353px;
     height: 800px;
     margin-left: -10px;
 }
@@ -561,7 +563,10 @@ margin-top:70px;
     margin-left:20px ;
 }
 .right-side-box{
-    width: 400px;
+    width: 320px;
+}
+.right-side-box button{
+width: 150px;
 }
 .right-side-box p{
     width: 346px; ;
@@ -580,8 +585,8 @@ margin-top:70px;
     width:240px ;
 }
 .last-section-tittle{
-    margin-left: 40px;
-    width: 390px;
+    margin-left: 25px;
+    width: 353px;
 }
 .last-section-tittle h2{
     font-size: 32px;
@@ -593,13 +598,17 @@ margin-top:70px;
     margin-left: 20px;
 }
 .last-section-img{
-    width:315px ;
-    height: 1735px;
+    width:285px ;
+    height: 1632px;
     margin-left: 10px;
     display:flex ;
     flex-direction: column;
     gap: 15px;
     column-gap:50px ;
+}
+.image-2{
+    width: 280px;
+    height: 252px;
 }
 .footer-text{
     display: flex;
@@ -612,7 +621,7 @@ margin-top:70px;
     
 }
 .footer-section{
-    width: 410px;
+    width: 353px;
     height: auto;
     margin-left: -10px;
 }
@@ -626,17 +635,17 @@ hr{
 
 /* unique-section */
 .unique-section p{
-    width: 315px;
+    width: 280px;
 }
 .image-part{
     margin-top: 58px;
-    margin-left:-15px;
+    margin-left:-20px;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
     background-color: rgb(15, 37, 37);
     padding:30px ;
-    width: 305px;
+    width: 282px;
     height: 1345px;
     border-radius: 30px;
 }
@@ -646,13 +655,15 @@ hr{
 }
 
 .eimage-a p{
-    width: 120px;
+    width: 100px;
 }
+
 .btn-primary-1{
-    width:120px ;
+    width:100px ;
+    font-size: 12px;
 }
 .unique-section{
-    width: 333px;
+    width: 300px;
     height: auto;
 }
 .unique-header{
@@ -663,17 +674,11 @@ hr{
     margin-top: -140px;
     margin-left: 35px;
 }
-.body{
 
-}
 .p{
 width: 170px;
 font-size: 15px;
 }
-/* .number-500{
-    font-size: 20px;
-    font-weight: 900;
-    width: 180px; */
     .img-btn-1{
         width:125px;
         height:98px;
